@@ -33,5 +33,6 @@ window.promises = [promise1,promise2,promise3,promise4,promise5];
 // Do not change the code above this
 // add your promises to the array `promises`
 Promise.any([promise1,promise2,promise3,promise4,promise5]).then((res)=>{
-	document.getElementById("output").innerHtml=res;
+    console.log(res);
+	document.getElementById("output").innerHTML=res;
 });
